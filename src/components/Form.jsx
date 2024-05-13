@@ -2,6 +2,10 @@ import { useState } from "react"
 
 export default function Form(){
     const [name, setname] = useState({fname:"",lname:""});
+    function frombuutonhandel(e){
+        e.preventDefault();
+        console.log(name)
+    }
     return(
         <div>
             {name.fname} - {name.lname}
@@ -16,6 +20,7 @@ export default function Form(){
                 type="text" 
                 value={name.lname}
                 />
+                <button onClick={(e)=>frombuutonhandel(e)}>Submit</button>
             </form>
         </div>
     )
