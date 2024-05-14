@@ -1,3 +1,4 @@
+
 import { useState } from "react"
 
 export default function Form(){
@@ -9,7 +10,7 @@ export default function Form(){
     return(
         <div>
             {name.fname} - {name.lname}
-            <form>
+            <form className={styles.todofrom}>
                 <input 
                 onChange={(e)=>setname({...name,fname:e.target.value})} 
                 type="text" 

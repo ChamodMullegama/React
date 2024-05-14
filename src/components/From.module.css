@@ -1,0 +1,35 @@
+.todofrom{
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 50px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+
+}
+.input{
+    display: block;
+    border: none;
+    width: 100%;
+    padding: 10px;
+    color: black;
+    font-size: 16PX;
+}
+.input:focus{
+    outline: none;
+}
+.button{
+    border: none;
+    padding: 10px 20px;
+    color: black;
+    background-color: #f7c18f;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16PX;
+    margin-top: 20px;
+    display: inline-block;
+}
+.contaner{
+    display: flex;
+}

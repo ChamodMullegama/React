@@ -1,5 +1,6 @@
+import styles from './From.module.css';
 import { useState } from "react";
-export default function Fromtodo(){
+export default function Fromtodo({todos,setTodos}){
     const [todo, setTodo] = useState("");
 
     function formSubmission(e) {
@@ -8,13 +9,21 @@ export default function Fromtodo(){
         setTodo(""); // Clear the input field after adding todo
       }
     return(
-        <form onSubmit={formSubmission}>
-        <input
-          type="text"
-          onChange={(e) => setTodo(e.target.value)}
-          value={todo}
-        />
-        <button type="submit">Add</button>
+        <form  className={styles.todofrom} onSubmit={formSubmission}>
+           <div className={styles.contaner}>
+           <input
+                className={styles.input}
+                type="text"
+                onChange={(e) => setTodo(e.target.value)}
+                value={todo}
+                placeholder='Enter the todo'
+              />
+              <button 
+              type="submit"
+              className={styles.button}
+              >  
+              Add</button>
+           </div>
       </form>
     )
 }

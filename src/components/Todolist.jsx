@@ -1,5 +1,12 @@
+import styles from './Todolist.module.css';
+
 export default function Todolist({item}){
     return(
-      <h1>{item}</h1>
+      <div className={styles.item} >
+        <div className={styles.nameitem}>
+           {item}
+           <hr />
+        </div>
+      </div>
     )
 }
