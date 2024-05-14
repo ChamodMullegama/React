@@ -4,7 +4,7 @@ export default function Listtodo({todos,setTodos}){
     return(
         <div className={styles.list}>
         {todos.map((item) => (
-        <Todolist key={item} item={item} todos={todos} setTodos={setTodos} />
+        <Todolist key={item.name} item={item} todos={todos} setTodos={setTodos} />
       ))}
         </div>
     )

@@ -8,7 +8,7 @@ export default function Todolist({item,todos,setTodos}){
     return(
       <div className={styles.item} >
         <div className={styles.nameitem}>
-           {item}
+           {item.name}
            <span>
              <button onClick={handleDelete} className={styles.deletebutton}>X</button>
            </span>
