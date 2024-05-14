@@ -9,3 +9,12 @@
     font-weight: bold;
     padding: 20px;
 }
+.deletebutton{
+    float: right;
+    padding: 12px 20px;
+    border: none;
+    margin-left: 30px;
+    background-color: #f7c18f;
+    border-radius: 10px;
+    cursor: pointer;
+}
