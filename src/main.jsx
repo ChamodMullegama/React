@@ -10,6 +10,6 @@ import Todo from './components/Todo.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-     <Todo />
+     <App />
   </React.StrictMode>,
 )
