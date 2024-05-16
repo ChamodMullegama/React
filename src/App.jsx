@@ -9,6 +9,7 @@ import Food from './components/Food'
 import Find from './components/Find'
 import Foodlist from './components/Foodlist'
 import Foodnavnbar from './components/Foodnavnbar'
+import Container from './components/Container'
 
 
 function App() {
@@ -17,7 +18,10 @@ function App() {
     <>
        <Foodnavnbar />
       <Find fooddata={fooddata} setfooddata={setfooddata}/>
-      <Foodlist fooddata={fooddata}/>
+        <Container>
+          <Foodlist fooddata={fooddata}/>
+        </Container>
+   
       <Food/>
     </>
   )
