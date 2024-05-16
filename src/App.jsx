@@ -4,12 +4,15 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Todo from './components/Todo'
 import Navbar from './Navbar'
+import Food from './components/Food'
+import Find from './components/Find'
+
 
 function App() {
   return (
     <>
-      <Navbar/>
-      <Todo />
+    <Find/>
+      <Food/>
     </>
   )
 }
