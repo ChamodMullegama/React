@@ -7,6 +7,7 @@ import EventHandle from './components/EventHandle.jsx'
 import Counter from './components/Counter.jsx'
 import Form from './components/Form.jsx'
 import Todo from './components/Todo.jsx'
+import 'bootstrap/dist/css/bootstrap.css';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
