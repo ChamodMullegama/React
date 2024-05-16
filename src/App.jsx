@@ -6,12 +6,15 @@ import Todo from './components/Todo'
 import Navbar from './Navbar'
 import Food from './components/Food'
 import Find from './components/Find'
+import Foodlist from './components/Foodlist'
 
 
 function App() {
+  const [fooddata,setfooddata]=useState([])
   return (
     <>
-    <Find/>
+      <Find fooddata={fooddata} setfooddata={setfooddata}/>
+      <Foodlist fooddata={fooddata}/>
       <Food/>
     </>
   )
