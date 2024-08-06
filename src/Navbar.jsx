@@ -13,7 +13,17 @@ export default function Navbar(){
                <h1 className={styles.nav}>Navbar</h1>
                <h1 className={styles.nav}>Navbar</h1>
                <h1 className={styles.nav}>Navbar</h1>
-            
+
+
+
+
+                   <h1 className={styles.nav}>Navbar</h1>
+               <h1 className={styles.nav}>Navbar</h1>
+               <h1 className={styles.nav}>Navbar</h1>
+               <h1 className={styles.nav}>Navbar</h1>
+               <h1 className={styles.nav}>Navbar</h1>
+               <h1 className={styles.nav}>Navbar</h1>
+               <h1 className={styles.nav}>Navbar</h1>
         </div>
     )
 }
